@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar{
+  text-align: left;
+  height: 80px;
+  position: sticky;
+  font-size: 30px;
+  top: 0;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(81, 142, 233);
+  border-bottom: 2px double rgb(75, 139, 236);
+  box-shadow: 0px 4px 14px 0px rgba(75, 139, 236);
+-webkit-box-shadow: 0px 4px 14px 0px rgba(75, 139, 236);
+-moz-box-shadow: 0px 4px 14px 0px rgba(75, 139, 236);
+}
+
+.nav-heading{
+  margin-left: 40px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+
+}
+
+.videos-wrapper{
+  margin-top: 40px;
+}
+
+.video-card{
+  border:5px solid gray;
+  width: 700px;
+  margin: 0px auto;
+  margin-bottom: 20px;
+  background-color: rgb(240, 238, 236);
+  padding: 20px 0px;
+  border-radius: 10px;
+}
+
+.vid-info{
+  text-align: left;
+  padding-left: 40px;
+}
+
+
+.vid-frame{
+  border: 8px solid grey;
+}
+
+.vid-title{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.vid-title, .vid-desc, .vid-tags{
+  margin-bottom: 10px;
+}
+
+.vid-desc{
+  font-weight: 700;
+  color: rgb(70, 68, 68);
+}
+
+.vid-tags{
+  color: blue;
+  font-weight: 600;
+}
